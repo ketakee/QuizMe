@@ -35,5 +35,5 @@ def get_quiz():
         response=json.dumps(questions), status=200, mimetype="text/plain")
     return resp
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
